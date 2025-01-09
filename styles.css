@@ -1,0 +1,157 @@
+body {
+  font-family: 'Epilogue', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  background-color: #fff;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1280px;
+  padding: 24px 0;
+}
+
+.header-logo {
+  height: 40px;
+  object-fit: cover;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+
+.header-nav-item {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #6a6a6a;
+  transition: color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  text-decoration: none;
+}
+
+.header-nav-item:hover {
+  color: #2d2d2d;
+}
+
+/* Hero Section */
+
+.hero {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  padding: 100px 0;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  flex: 1;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 500;
+  color: #2d2d2d;
+}
+
+.hero-title {
+  font-size: 80px;
+  line-height: 96px;
+  font-weight: 700;
+  color: #2d2d2d;
+}
+
+.hero-text {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #2d2d2d;
+}
+
+.hero-illus {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.hero-video {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Brand Section */
+
+.brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  padding: 66px 0;
+  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+}
+
+.brand-img {
+  height: 34px;
+  object-fit: cover;
+}
+
+/* Skill Section */
+
+.skill {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 124px;
+  width: 100%;
+  max-width: 1280px;
+  padding: 180px 0;
+}
+
+.skill-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+.skill-icon {
+  height: 130px;
+  object-fit: cover;
+}
+
+.skill-title {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 600;
+  color: #2d2d2d;
+  text-align: center;
+}
+
+.skill-text {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #2d2d2d;
+  text-align: center;
+}
