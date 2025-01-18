@@ -271,6 +271,7 @@ body {
   width: 100%;
   max-width: 1080px;
   padding: 20px 0;
+  margin-bottom: 40px;
 }
 
 .work-title {
@@ -283,7 +284,7 @@ body {
 
 .work-content {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 60px;
   width: 100%;
 }
